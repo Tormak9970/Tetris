@@ -174,6 +174,7 @@
             <div>Click to Start</div>
         </div>
     </div>
+	<div class="rights">© Travis Lane 2022</div>
 </div>
 
 <style>
@@ -187,6 +188,8 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+
+        position: relative;
     }
 
     .game-container {
@@ -510,4 +513,15 @@
     .hidden {
         display: none;
     }
+    
+    .rights {
+		position: absolute;
+		right: 7px;
+		bottom: 7px;
+
+		color: #e7e7e7;
+		font-size: 10px;
+		
+		opacity: 0.4;
+	}
 </style>
